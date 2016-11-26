@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cover {
+	background-color: blue;
+	background-image: url(images/cover.jpg);
+	background-position: cover;
+	height: 600px;
+	display: flex;
+
+}
