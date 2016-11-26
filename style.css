@@ -72,11 +72,45 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none;
+  color: white; }
+
+h1 {
+  font-family: 'Droid Serif', serif;
+  font-size: 45px;
+  font-weight: 300;
+  color: white; }
+
+.top-navigation {
+  display: flex;
+  justify-content: space-between; }
+
 .cover {
-  background-color: blue;
-  background-image: url(images/cover.jpg);
-  background-position: cover;
+  background: linear-gradient(rgba(12, 180, 206, 0.5), rgba(16, 128, 208, 0.8)), url("images/cover.jpg") no-repeat center;
+  background-size: cover;
   height: 600px;
-  display: flex; }
+  vertical-align: center; }
+
+.cover__title {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding-top: 200px;
+  margin-bottom: 50px; }
+
+.cover__button {
+  margin: auto;
+  width: 250px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .cover__button span {
+    color: white;
+    font-size: 12px;
+    font-family: 'Proxima Nova'; }
 
 /*# sourceMappingURL=style.css.map */
